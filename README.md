@@ -1,10 +1,12 @@
 # Boilerplate For Angular 1.X and Django(Powered by Webpack2, Docker, Yarn, DRF)
 
+How to Use: http://ruddra.com/2017/11/20/boilerplate-django-with-angularjs-powered-by-webpack2-yarn-docker-drf/
+
 ## Tech Stack
 1. Python3
-2. Django 1.11.4, Django Rest Framework
+2. Django 1.11.6, Django Rest Framework
 3. Webpack 2
-4. JavaScript/AngularJS 1.x
+4. JavaScript(ES6)/AngularJS 1.x
 5. Yarn
 
 ## Prerequisite
