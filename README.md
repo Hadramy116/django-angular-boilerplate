@@ -1,4 +1,4 @@
-# Boiler Plate For Angular 1.X and Django(Powered by Webpack2, Docker, Yarn, DRF)
+# Boilerplate For Angular 1.X and Django(Powered by Webpack2, Docker, Yarn, DRF)
 
 ## Tech Stack
 1. Python3
@@ -56,3 +56,9 @@ DATABASES = {
 ```
 
 ## Screenshots
+### Front page at: http://localhost:8000/#!/
+<img src="https://github.com/ruddra/django-angular-boilerplate/blob/master/screenshots/angular-app.png?raw=true">
+### Rest API at: http://localhost:8000/api/movies/
+<img src="https://github.com/ruddra/django-angular-boilerplate/blob/master/screenshots/api-get-put.png?raw=true">
+### Admin Site: at: http://localhost:8000/admin/movies/movie/
+<img src="https://github.com/ruddra/django-angular-boilerplate/blob/master/screenshots/admin-site.png?raw=true">
