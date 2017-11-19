@@ -1,0 +1,26 @@
+version: '2'  
+services:  
+  nginx2:
+    image: nginx:latest
+    container_name: nzAng
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../backend:/src
+      - ./nginx:/etc/nginx/conf.d
+    depends_on:
+      - web2
+  web2:
+    build: .
+    container_name: dzAng
+    command: bash -c 'python manage.py runserver 0.0.0.0:8000'
+    depends_on:
+      - db2
+    volumes:
+      - ../backend:/src
+    expose:
+      - "8000"
+
+  db2:
+    image: postgres:latest
+    container_name: pzAng

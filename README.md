@@ -21,8 +21,8 @@
 2. Run `make docker-up` to startup docker apps for first time.
 3. To start again `make docker-start`, stop `make docker-stop`, restart `make docker-restart`
 4. For running the migrations: `make docker-migrate`
-
-For more commands, go inside docker folder.
+*How to use django with docker: ruddra.com/2016/08/14/docker-django-nginx-postgres/
+*For more commands, go inside docker folder.
 
 ## Setup Backend
 If you are not using docker, then you can go to backend folder and do following steps:
