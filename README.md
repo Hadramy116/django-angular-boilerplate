@@ -8,8 +8,10 @@
 5. Yarn
 
 ## Prerequisite
-1. Require Docker. How to install Docker: https://docs.docker.com/engine/installation/
-2. Require Yarn. How to install Yarn: https://yarnpkg.com/lang/en/docs/install/
+
+1. Require Yarn. How to install Yarn: https://yarnpkg.com/lang/en/docs/install/
+2. Require Docker if you want to use this boiler plate with docker. How to install Docker: https://docs.docker.com/engine/installation/
+** If you don't want docker, you can still use this boilerplate. Look <a href="#setup-backend">here</a> for details
 
 ## Setup frontend
 1. Run `make install-frontend` to install frontend dependencies
