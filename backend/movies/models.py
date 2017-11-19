@@ -18,6 +18,9 @@ class Movie(models.Model):
         max_length=1000
     )
 
+    def __str__(self):
+        return self.title
+
     class Meta:
         db_table = 'movie'
         app_label = 'movies'

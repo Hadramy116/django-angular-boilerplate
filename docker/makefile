@@ -29,7 +29,7 @@ log-db:
 	docker-compose logs db2 
 
 collectstatic:
-	docker exec dzAng /bin/sh -c "python manage.py collectstatic --noinput --link"
+	docker exec dzAng /bin/sh -c "python manage.py collectstatic --noinput"
 
 restart:
 	make stop
@@ -37,3 +37,9 @@ restart:
 
 migrate:
 	docker exec -ti dzAng ./manage.py migrate
+
+django-shell:
+	docker exec -ti dzAng ./manage.py shell
+
+django-superuser:
+	docker exec -ti dzAng ./manage.py createsuperuser

@@ -38,3 +38,21 @@ If you are not using docker, then you can go to backend folder and do following 
 1. Create super user and access the adminsite. In there you can create movies instances.
 2. Or use API `host:port/api/movies` to create Movies
 3. Access `host:port` to see the movies.
+
+## Local Settings Sample
+Lets say you want to use sqllite instead of psql. You can try like this:
+
+```
+# Will reside in ./backend/movie_app/
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATABASES = {
+     'default': {
+         'ENGINE': 'django.db.backends.sqlite3',
+         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+     }
+}
+
+```
+
+## Screenshots

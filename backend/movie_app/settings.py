@@ -123,10 +123,12 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
-]
-# STATIC_ROOT = './static'
+if os.environ.get('USING_DOCKER', False):
+    STATIC_ROOT = './static'
+else:
+    STATICFILES_DIRS = [
+        os.path.join(BASE_DIR, "static"),
+    ]
 
 DATABASES = {
     'default': {
