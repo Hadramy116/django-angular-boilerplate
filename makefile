@@ -23,7 +23,7 @@ docker-collectstatic:
 	bash -c "cd docker && make collectstatic"
 	
 docker-restart:
-	bash -c "cd docker && make stop && make start"
+	bash -c "make buld && cd docker && make stop && make start"
 
 docker-migrate:
 	bash -c "cd docker && make migrate"

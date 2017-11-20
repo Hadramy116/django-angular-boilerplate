@@ -6,3 +6,4 @@
 *.sqlite3
 **/static/*
 yarn.lock
+**/node_modules/
