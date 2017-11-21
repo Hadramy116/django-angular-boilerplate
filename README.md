@@ -1,5 +1,5 @@
 # Boilerplate For Angular 1.X and Django(Powered by Webpack2, Docker, Yarn, DRF)
-### Simple and clean boilerplate for using django and angular 1.x togather, with basic structure built.
+### Simple and clean boilerplate for using django and angular 1.x togather, with basic structure comes built-in.
 How to Use: http://ruddra.com/2017/11/20/boilerplate-django-with-angularjs-powered-by-webpack2-yarn-docker-drf/
 
 ## Tech Stack
