@@ -1,5 +1,5 @@
 # Boilerplate For Angular 1.X and Django(Powered by Webpack2, Docker, Yarn, DRF)
-
+### Simple and clean boilerplate for using django and angular 1.x togather, with basic structure built.
 How to Use: http://ruddra.com/2017/11/20/boilerplate-django-with-angularjs-powered-by-webpack2-yarn-docker-drf/
 
 ## Tech Stack
@@ -15,7 +15,7 @@ How to Use: http://ruddra.com/2017/11/20/boilerplate-django-with-angularjs-power
 2. Require Docker if you want to use this boiler plate with docker. How to install Docker: https://docs.docker.com/engine/installation/
 ** If you don't want docker, you can still use this boilerplate. Look <a href="#setup-backend">here</a> for details
 
-## Setup frontend
+## Setup Frontend
 1. Run `make install-frontend` to install frontend dependencies
 2. Run `make build-frontend` to build frontend.
 3. Run `make watch` to watch over the file changes
@@ -66,5 +66,5 @@ DATABASES = {
 ### Rest API at: http://localhost:8000/api/movies/
 <img src="https://github.com/ruddra/django-angular-boilerplate/blob/master/screenshots/api-get-put.png?raw=true">
 
-### Admin Site: at: http://localhost:8000/admin/movies/movie/
+### Admin Site at: http://localhost:8000/admin/movies/movie/
 <img src="https://github.com/ruddra/django-angular-boilerplate/blob/master/screenshots/admin-site.png?raw=true">
